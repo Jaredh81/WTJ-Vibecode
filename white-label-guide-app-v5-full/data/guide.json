@@ -1,0 +1,25 @@
+{
+  "property": {
+    "name": "Cozy Solar-Powered Cottage",
+    "address": "23 7th Street, Johannesburg, South Africa",
+    "host": "Jared & Callaghan"
+  },
+  "theme": {
+    "primary": "#ff6b6b",
+    "logo": ""
+  },
+  "pages": [
+    { "title": "Welcome", "icon": { "emoji": "🏡" }, "enabled": true },
+    { "title": "Meet Hosts", "icon": { "emoji": "👋" }, "enabled": true },
+    { "title": "Check-in/Out", "icon": { "emoji": "🔑" }, "enabled": true },
+    { "title": "Amenities", "icon": { "emoji": "⭐" }, "enabled": true },
+    { "title": "WiFi", "icon": { "emoji": "📶" }, "enabled": true },
+    { "title": "House Rules", "icon": { "emoji": "🛡" }, "enabled": true },
+    { "title": "Kitchen", "icon": { "emoji": "🍴" }, "enabled": true },
+    { "title": "In the Neighbourhood", "icon": { "emoji": "🗺" }, "enabled": true },
+    { "title": "Emergency", "icon": { "emoji": "🚨" }, "enabled": true },
+    { "title": "Travel Essentials", "icon": { "emoji": "🧳" }, "enabled": true },
+    { "title": "Explore Jo’burg", "icon": { "emoji": "🌍" }, "enabled": true },
+    { "title": "Contact", "icon": { "emoji": "✉️" }, "enabled": true }
+  ]
+}

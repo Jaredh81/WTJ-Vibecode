@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guide</title>
+
+  <!-- Guest view styles -->
+  <link rel="stylesheet" href="app.css" />
+
+  <!-- Inter font (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Top bar -->
+  <header class="top">
+    <div class="brand">
+      <img id="brandLogo" class="logo" alt="Logo" />
+      <span id="brandName">Guide</span>
+    </div>
+    <div class="top-actions">
+      <div class="device-toggle">
+        <button class="chip is-active" data-mode="desktop">Desktop</button>
+        <button class="chip" data-mode="mobile">Mobile</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main shell -->
+  <main class="shell">
+    <aside class="left"></aside>
+
+    <section class="content">
+      <div class="content-top">
+        <div class="avatar"><img id="hostAvatar" alt="" /></div>
+        <div class="search"><input id="search" type="search" placeholder="Search here" /></div>
+        <button class="share" id="shareBtn" title="Share">⤴</button>
+      </div>
+
+      <!-- Grid of page cards -->
+      <div id="grid" class="grid"></div>
+    </section>
+  </main>
+
+  <!-- Bottom nav (visual) -->
+  <nav class="bottom">
+    <button class="tab is-active"><span>Home</span></button>
+    <button class="tab"><span>Guide</span></button>
+    <button class="tab"><span>Map</span></button>
+    <button class="tab"><span>Host</span></button>
+  </nav>
+
+  <!-- Guest logic -->
+  <script src="app.js"></script>
+</body>
+</html>
